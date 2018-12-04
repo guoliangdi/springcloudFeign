@@ -2,8 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-[![GitHub stars](https://img.shields.io/github/stars/xubinux/xbin-store-cloud.svg?style=social&label=Stars)](https://github.com/xubinux/xbin-store-cloud)
-[![GitHub forks](https://img.shields.io/github/forks/xubinux/xbin-store-cloud.svg?style=social&label=Fork)](https://github.com/xubinux/xbin-store-cloud)
+[![GitHub forks](https://img.shields.io/github/forks/guoliangD/springcloudFeign.svg)](https://github.com/guoliangD/springcloudFeign/network)
+[![GitHub stars](https://img.shields.io/github/stars/guoliangD/springcloudFeign.svg)](https://github.com/guoliangD/springcloudFeign/stargazers)
 
 ## 介绍
 
