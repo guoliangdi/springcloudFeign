@@ -1,7 +1,8 @@
 <h1 align="center">harbor installation</h1>
 
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/badge/follow-guoliangdi-green.svg)](https://github.com/guoliangD/springcloudFeign/)
 
-![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 ## 一、github link
 https://github.com/goharbor/harbor

@@ -1,7 +1,8 @@
 <h1 align="center">jenkins installation</h1>
 
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/badge/follow-guoliangdi-green.svg)](https://github.com/guoliangD/springcloudFeign/)
 
-![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 ## 一、jenkins link
 https://jenkins.io/doc/pipeline/tour/getting-started/

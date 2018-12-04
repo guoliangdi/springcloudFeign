@@ -1,5 +1,9 @@
 <h1 align="center">docker installation</h1>
 
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/badge/follow-guoliangdi-green.svg)](https://github.com/guoliangD/springcloudFeign/)
+
+
 ### step 1: 安装依赖
 `sudo yum install -y yum-utils device-mapper-persistent-data lvm2`
 

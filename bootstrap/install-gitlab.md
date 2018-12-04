@@ -1,7 +1,8 @@
 <h1 align="center">gitlab installation</h1>
 
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/badge/follow-guoliangdi-green.svg)](https://github.com/guoliangD/springcloudFeign/)
 
-![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 ## 一、官方指定安装方式
 https://about.gitlab.com/install/#centos-7?version=ce

@@ -1,5 +1,9 @@
 <h1 align="center">kubernetes installation</h1>
 
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/badge/follow-guoliangdi-green.svg)](https://github.com/guoliangD/springcloudFeign/)
+
+
 ## 一、kubernetes link
 https://www.kubernetes.org.cn/course/install
 
