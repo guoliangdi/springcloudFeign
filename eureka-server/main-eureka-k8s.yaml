@@ -1,0 +1,32 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: my-eureka
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: my-eureka
+    spec:
+      containers:
+      - name: my-eureka
+        image: 172.20.4.27/springcloudfeign/eureka-server:201811281252_ce6bc79
+        ports:
+        - containerPort: 30081
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-eureka
+  labels:
+    run: my-eureka
+spec:
+  type: NodePort
+  ports:
+  - port: 30081
+    targetPort: 30081
+    nodePort: 30081
+  selector:
+    run: my-eureka

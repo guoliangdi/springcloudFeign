@@ -1,0 +1,17 @@
+server:
+  port: 30081
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST_NAME:peer1} #服务主机名
+    appname: ${spring.application.name} #服务名称，默认为 unknow 这里直接取 spring.application.name 了
+  client:
+    register-with-eureka: ${BOOL_REGISTER:false} # 是否把服务中心本身当做eureka client 注册。默认为true
+    fetch-registry: ${BOOL_FETCH:false} # 是否拉取 eureka server 的注册信息。 默认为true
+    service-url:
+      defaultZone: ${EUREKA_URL_LIST:http://peer1:30081/eureka/} # 指定服务中心 eureka server的地址
+  server:
+    enable-self-preservation: ${SELF_PRESERVATION:true} # 是否开启自我保护。 默认为 true.
+
+spring:
+  application:
+    name: ${EUREKA_APPLICATION_NAME:eureka-server}

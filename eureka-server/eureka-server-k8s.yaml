@@ -1,0 +1,43 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: springcloud-eureka-server-deployment
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: eureka-server-k8s
+    spec:
+      nodeSelector:
+        # 指定节点生成Pod,不能指定master.
+        kubernetes.io/hostname: node-001
+      imagePullSecrets:
+        # config harbor secret
+        - name: harborsecret
+      containers:
+      - name: eureka-server-k8s
+       # harbor 地址
+        image: 172.20.4.27/springcloudfeign/eureka-server:201811261951_b47440a
+        ports:
+        - containerPort: 80 # docker容器端口
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: eureka-server-k8s
+  labels:
+    run: eureka-server-k8s
+spec:
+# 测试nodePort方式访问
+# NodePort 特点：直接开放端口（这种方式不推荐，一般用于demo）
+# 它指定节点上开放的端口 。如果你不指定这个端口，系统将选择一个随机端口
+# 大多数时候我们应该让 Kubernetes 来选择端口，因用户自己来选择可用端口代价太大
+  type: NodePort
+  ports:
+  - port: 80
+    targetPort: 80
+    nodePort: 30001  # 节点主机端口
+  selector:
+    run: eureka-server-k8s
