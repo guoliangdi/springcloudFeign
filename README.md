@@ -26,6 +26,8 @@
 ## 实现目标
 ![流程图](bootstrap/可持续集成流程图.png)
 
+![jenkins02](bootstrap/jenkins02.png)
+
 ### 技术选型
 * jdk1.8
 * gitlab
