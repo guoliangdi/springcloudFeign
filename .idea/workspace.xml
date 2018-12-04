@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="809aaca9-d80c-4f87-8298-05a7a677321b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/install-docker.md" afterPath="$PROJECT_DIR$/bootstrap/install-docker.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/install-gitlab.md" afterPath="$PROJECT_DIR$/bootstrap/install-gitlab.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/install-harbor.md" afterPath="$PROJECT_DIR$/bootstrap/install-harbor.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/install-jenkins.md" afterPath="$PROJECT_DIR$/bootstrap/install-jenkins.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/install-kubernetes.md" afterPath="$PROJECT_DIR$/bootstrap/install-kubernetes.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/install-sonarqube.md" afterPath="$PROJECT_DIR$/bootstrap/install-sonarqube.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -479,14 +472,7 @@
       <workItem from="1543147999393" duration="4668000" />
       <workItem from="1543216289355" duration="23295000" />
       <workItem from="1543562126976" duration="8625000" />
-      <workItem from="1543805867261" duration="25382000" />
-    </task>
-    <task id="LOCAL-00002" summary="add jenkinsfile">
-      <created>1542877515469</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1542877515469</updated>
+      <workItem from="1543805867261" duration="25388000" />
     </task>
     <task id="LOCAL-00003" summary="add demo class.">
       <created>1542956448656</created>
@@ -824,11 +810,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543911753410</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update md">
+      <created>1543912007281</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1543912007281</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86110000" />
+    <option name="totallyTimeSpent" value="86116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="22" width="1408" height="878" extended-state="0" />
