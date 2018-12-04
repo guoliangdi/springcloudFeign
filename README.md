@@ -1,9 +1,11 @@
 <h1 align="center">CI/CD 持续集成</h1>
 
 [![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-[![GitHub forks](https://img.shields.io/github/forks/guoliangD/springcloudFeign.svg)](https://github.com/guoliangD/springcloudFeign/network)
-[![GitHub stars](https://img.shields.io/github/stars/guoliangD/springcloudFeign.svg)](https://github.com/guoliangD/springcloudFeign/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/guoliangD/springcloudFeign.svg)](https://github.com/guoliangD/springcloudFeign/)
+[![GitHub stars](https://img.shields.io/github/stars/guoliangD/springcloudFeign.svg)](https://github.com/guoliangD/springcloudFeign/)
+
+[![GitHub stars](https://img.shields.io/badge/follow-guoliangdi-green.svg)](https://github.com/guoliangD/springcloudFeign/)
+
 
 ## 介绍
 
