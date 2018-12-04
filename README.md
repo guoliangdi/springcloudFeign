@@ -59,7 +59,7 @@
 [安装kubernetes](bootstrap/install-kubernetes.md) 
 
 ### 运行教程  <---- 
-[点我查看运行教程](https://github.com/guoliangd/wiki/Tutorial)
+[点我查看运行教程](https://github.com/guoliangd/springcloudFeign/wiki)
 
 
 ## If you have a better suggestion,Please share out,Let's do better.
