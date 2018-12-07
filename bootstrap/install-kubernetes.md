@@ -144,7 +144,7 @@ docker rmi registry.cn-shanghai.aliyuncs.com/gcr-k8s/flannel:v0.10.0-amd64
 ### 6、查看镜像结果
 `docker images | grep k8s`
 
-![01](bootstrap/k8s01.jpg)
+![01](/bootstrap/k8s01.jpg)
 
 ### 在192.168.56.60机器上执行`
 
@@ -153,7 +153,7 @@ docker rmi registry.cn-shanghai.aliyuncs.com/gcr-k8s/flannel:v0.10.0-amd64
 kubeadm init --kubernetes-version=v1.12.1 --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address=192.168.56.60
 ```
 
-![02](bootstrap/k8s02.jpg)
+![02](/bootstrap/k8s02.jpg)
 
 执行屏幕打印出的命令
 
@@ -171,11 +171,11 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 (3) flannel 默认会使用主机的第一张网卡，如果你有多张网卡，需要通过配置单独指定。修改 kube-flannel.yml 中的以下部分
 
-![03](bootstrap/k8s03.jpg)
+![03](/bootstrap/k8s03.jpg)
 
-![04](bootstrap/k8s04.jpg)
+![04](/bootstrap/k8s04.jpg)
 
-![05](bootstrap/k8s05.jpg)
+![05](/bootstrap/k8s05.jpg)
 
 
 (4) 安装网络
@@ -193,7 +193,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ** 创建网络  kubectl apply -f kube-flannel.yml
 
 
-![06](bootstrap/k8s06.jpg)
+![06](/bootstrap/k8s06.jpg)
 
 
 ### 在192.168.56.61机器上执行
@@ -216,4 +216,4 @@ kubeadm join 192.168.56.60:6443 --token cgggwd.q5w883rkzbp44v6w --discovery-toke
 
 (3)、在192.168.56.60上验证
 
-![07](bootstrap/k8s07.jpg)
+![07](/bootstrap/k8s07.jpg)
